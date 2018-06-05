@@ -4,8 +4,15 @@ title: Architect Theme by Jason Long
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Release Note</h1>
+  <br>
+  <h3>System requirements</h3>
   <ul class="posts">
+    <li>Linux: 64-bit, supports Ubuntu 12.04+, CentOS 6.2+, Debian 7+, Fedora 15+, RHEL 6.2+.</li>
+    <li>Windows: 64-bit, supports Windows 7, 8, 10, Server 2008 or later.</li>
+    <li>Mac: 64-bit, supports OS X 10.12 (we hope to support earlier versions soon).</li>
+    <li>512 MB of RAM</li>
+    <li>1 GB of disk space</li>
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
