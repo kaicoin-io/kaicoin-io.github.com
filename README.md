@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Download and Install kaicoin
 
 You can use the [editor on GitHub](https://github.com/kaicoin-io/kaicoin-io.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
